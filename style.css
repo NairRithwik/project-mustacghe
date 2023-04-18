@@ -1,0 +1,20 @@
+h2
+{
+    font-size: 60px !important; 
+    font-weight: bolder;
+}
+.btn-info:hover
+{
+background-color: rgb(102, 255, 0);
+}
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example 
+{
+from{box-shadow: 1px 1px 29px rgb(144, 47, 255);}
+to{box-shadow: 1px 1px 29px rgb(153, 51, 85);}
+}
